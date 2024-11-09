@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foire Interactive de Pahou (FIPA 2024)</title>
+    <style>
+        /* Styles de base */
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #004aad;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 12px 18px;
+            font-weight: bold;
+            font-size: 1.1em;
+            border-radius: 5px;
+            background-color: #005bbb;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #007bff;
+        }
+
+        /* Logo */
+        .logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            border: 3px solid #333;
+            border-radius: 15px;
+            background-color: #0078d4;
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+            margin-bottom: 15px;
+            transform: scale(1.2);
+        }
+
+        .logo-text {
+            font-size: 3em;
+            font-weight: bold;
+            color: #fff;
+            margin-right: 10px;
+            letter-spacing: 3px;
+        }
+
+        .logo-subtext {
+            font-size: 1.4em;
+            background-color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            color: #0078d4;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            background-image: url('https://example.com/african-background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 40px 20px;
+            text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.7);
+        }
+
+        header h1 {
+            font-size: 2.8em;
+            margin: 0;
+            color: #ffcc00;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin: 10px 0;
+            color: #0078d4; /* Couleur harmonisée avec le logo */
+            font-weight: bold;
+            text-shadow: 0 0 3px #000, -1px 1px 2px #000, 1px -1px 2px #000, 1px 1px 3px #000;
+        }
+
+        /* Section principale */
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        section h2 {
+            color: #007bff;
+            font-size: 1.8em;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        section p, section ul {
+            font-size: 1.1em;
+            line-height: 1.6em;
+            color: #555;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            padding: 5px 0;
+        }
+
+        /* Image Styles */
+        img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+            margin: 15px 0;
+        }
+
+        /* Boutons */
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            margin: 10px;
+            color: #fff;
+            background-color: #007bff;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .footer-logos {
+            display: flex;
+            justify-content: center;
+            margin-top: 38px;
+        }
+
+        .footer-logos img {
+            width: 100px;
+            height: 100px;
+            margin: 0 30px;
+            border-radius: 15px;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+
+            .logo-container {
+                flex-direction: column;
+                padding: 10px;
+            }
+
+            .logo-text {
+                font-size: 2em;
+                margin-right: 0;
+            }
+
+            .logo-subtext {
+                font-size: 1.2em;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+
+            header p {
+                font-size: 1em;
+            }
+
+            section {
+                padding: 15px;
+            }
+
+            .footer-logos img {
+                width: 80px;
+                height: 80px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">À propos</a>
+        <a href="#activites">Activités</a>
+        <a href="#contact">Contact</a>
+        <a href="calendrier .html" class="btn">Calendrier</a>
+    </nav>
+
+    <header id="home">
+        <div class="logo-container">
+            <div class="logo-text">DALIM</div>
+            <div class="logo-subtext">SARL</div>
+        </div>
+        <h1>Foire Interactive de Pahou (FIPA 2024)</h1>
+        <p>Du 14 décembre 2024 au 2 janvier 2025</p>
+        <p><strong>Lieu :</strong> CS Michel du Bois</p>
+    </header>
+
+    <section id="about">
+        <h2>À propos de la FIPA 2024</h2>
+        <p>La <strong>Foire Interactive de Pahou (FIPA) 2024</strong> est un événement annuel visant à promouvoir les talents, produits et services de la région. Avec la participation d’exposants venus de divers horizons, cet espace est dédié à la découverte, aux échanges commerciaux et culturels, et à l’établissement de nouveaux partenariats.</p>
+        <p>La FIPA est un lieu de rencontre idéal pour les entrepreneurs locaux et les consommateurs, offrant aux participants une opportunité unique de présenter leurs innovations, d’étendre leur réseau professionnel, et de renforcer leur visibilité auprès d’un large public.</p>
+        <img src="M1.jpg" alt="Ambiance de la Foire">
+        <p>Au-delà du commerce, la Foire met également l'accent sur le divertissement et les activités culturelles, permettant aux visiteurs de passer des moments agréables tout en découvrant des produits et services innovants dans une ambiance festive et interactive.</p>
+    </section>
+
+    <section id="activites">
+        <h2>Activités</h2>
+        <ul>
+            <li><strong>Expositions-ventes :</strong> Découvrez une variété de produits locaux et internationaux. Les exposants vous proposent des articles uniques allant de l’artisanat aux produits high-tech, en passant par les textiles, cosmétiques, et bien plus.</li>
+            <li><strong>Jeux d’attraction et de concours :</strong> Participez à des jeux interactifs et concours pour gagner des prix exceptionnels. Adaptés pour toute la famille, ces jeux promettent de divertir petits et grands.</li>
+            <li><strong>Compétitions :</strong> Assistez à des compétitions amicales, comme des tournois de danse, de chant, ou de sport, mettant en avant les talents de la communauté.</li>
+            <li><strong>Mini-concerts :</strong> Profitez de performances en direct d’artistes locaux qui vous feront vibrer au rythme de la musique et de la culture africaine. Un programme diversifié vous attend chaque jour.</li>
+            <li><strong>Dîners et animations :</strong> Participez à des dîners festifs, partagez des moments conviviaux, et découvrez les spécialités culinaires de la région, le tout dans une ambiance chaleureuse.</li>
+        </ul>
+        <img src="M2.jpeg" alt="Activités de la Foire">
+    </section>
+
+    <section>
+       <h2>Informations sur les stands</h2>
+        <p><strong>Période de réservation :</strong> Du 24 octobre 2024 au 26 novembre 2024</p>
+        <p><strong>Tarif du stand :</strong> 50 000 F CFA</p>
+        <a href="reservation.html" class="btn">Réserver un Stand</a>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <h2>Contactez-nous</h2>
+        <p>Pour toute information supplémentaire, contactez-nous :</p>
+        <p><strong>Email :</strong> dalimsarl@yahoo.com</p>
+        <p><strong>Téléphone :</strong> 62307797 / 68523227 / 47337762</p>
+        <p><strong>N° RCCM :</strong> RB/COT/19/823978 | <strong>N° IFU :</strong> 3201910681250 | <strong>Compte bancaire :</strong> 501090039449 (UBA)</p>
+        <p><strong>FIPA 2024</strong> – Nous espérons vous y voir nombreux !</p>
+        <div class="footer-logos">
+            <img src="LOGO1.jpg" alt="Logo 1">
+            <img src="LOGO2.jpg" alt="Logo 2">
+        </div>
+    </footer>
+
+</body>
+</html>
